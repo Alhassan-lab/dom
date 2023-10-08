@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="path/to/fontawesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</head>
+
+
+<body>
+    <style>
+        .first-box{
+            color:white;
+            background-color: black;
+            height: 100px;
+            width:auto;
+            display: flex;
+            border-radius: 2px;
+        }
+        .logo{
+            flex: 1;
+            padding: 10px;
+            text-align: left;
+            margin: 1px;
+        }
+        img{
+            border-radius:70px;
+            height: 80px;
+            width:80px;
+        }
+        button{
+            margin: 10px;
+            margin-left: 50px;
+        }
+        .write-up{
+            width:auto;
+            height: 40px;
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            line-height: 20px;
+        }
+        .second-box{ 
+            background-color: skyblue;
+            color:white;
+            height:70px;
+            width:auto;
+            display: flex;
+            border-radius: 2px;
+        }
+        .cart{
+            flex: 1;
+            padding: 10px;
+            text-align: left;
+            margin: 1px;
+            display: flexbox;
+        }
+        body{
+            background-color: white;
+        }
+        .dropdown{
+            margin-right: 100px;
+        }
+        .materials{
+            display: flex;
+            background:#3498db;
+            margin-left: 200px;
+            margin-top: 20px;
+            min-height: 100px;
+            justify-content: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+    <div class="first-box">
+        <div class="logo" ><img src="images/mylogo.png" alt="logo"><span><em>We are at your door step!!!</em></span></div>
+        <div class="logo"><h1><em>goSHOPPING <img src="images/download.jpeg" alt="logo"></em></div>
+        <div class="logo"> <button class="btn btn-primary">Login</button><button class="btn btn-primary">Create Account</button></div>
+    </div>
+
+    
+    <div class="write-up"><font color="blue"face="times new roman"><h3><u><marquee><center>
+        We Specialize in your first needs. Get our products at cheaper rates and quarterly bonanza 😇😊!!!
+    </center></marquee></u></h3>
+    </font> </div>
+        
+    
+    <div class="second-box">
+        <div class="cart">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><em>goSHOPPING <img src="images/download.jpeg" alt="logo" style="height: 40px; width: 40px;"></em></button>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color: cornflowerblue;">
+                    <a class="dropdown-item" href="#">Home Appliances</a>
+                    <a class="dropdown-item" href="#">Gadgets</a>
+                    <a class="dropdown-item" href="#">Clothings</a>
+                </div>
+            </div>            
+        </div>
+
+        <div class="cart"><form class="d-flex" style="width: 500px;">
+            <input class="form-control me-2" type="search" placeholder=" Search for your products..." aria-label="Search">
+            <button class="btn btn-primary" type="submit" style="margin-top: 3px; margin-left: 10px;">Search</button>
+        </form></div>
+        <div class="cart"><p><i class="fas fa-user text-primary"></i>Hi Abdullaahi...</p></div>
+    </div>
+    </header>
+
+    <main class="materials">
+       <div class="cart">
+        <div class="item">
+            <span class="item-name">Item 1</span>
+            <button class="decrement">-</button>
+            <span class="quantity">1</span>
+            <button class="increment">+</button>
+            <button class="delete">Delete</button>
+            <button class="like">❤️</button>
+        </div>
+        <div class="item">
+            <span class="item-name">Item 2</span>
+            <button class="decrement">-</button>
+            <span class="quantity">1</span>
+            <button class="increment">+</button>
+            <button class="delete">Delete</button>
+            <button class="like">❤️</button>
+
+            <div class="total">
+                Total Price: <span id="total-price">$0.00</span>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="item">
+                <span class="item-name">Item 1</span>
+                <button class="decrement">-</button>
+                <span class="quantity">1</span>
+                <button class="increment">+</button>
+                <button class="delete">Delete</button>
+                <button class="like">❤️</button>
+            </div>
+            <div class="item">
+                <span class="item-name">Item 2</span>
+                <button class="decrement">-</button>
+                <span class="quantity">1</span>
+                <button class="increment">+</button>
+                <button class="delete">Delete</button>
+                <button class="like">❤️</button>
+    
+                <div class="total">
+                    Total Price: <span id="total-price">$0.00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</div>
+<div class="cart">
+    <div class="item">
+        <span class="item-name">Item 1</span>
+        <button class="decrement">-</button>
+        <span class="quantity">1</span>
+        <button class="increment">+</button>
+        <button class="delete">Delete</button>
+        <button class="like">❤️</button>
+    </div>
+    <div class="item">
+        <span class="item-name">Item 2</span>
+        <button class="decrement">-</button>
+        <span class="quantity">1</span>
+        <button class="increment">+</button>
+        <button class="delete">Delete</button>
+        <button class="like">❤️</button>
+
+        <div class="total">
+            Total Price: <span id="total-price">$0.00</span>
+        </div>
+    </div>
+    <div class="cart">
+        <div class="item">
+            <span class="item-name">Item 1</span>
+            <button class="decrement">-</button>
+            <span class="quantity">1</span>
+            <button class="increment">+</button>
+            <button class="delete">Delete</button>
+            <button class="like">❤️</button>
+        </div>
+        <div class="item">
+            <span class="item-name">Item 2</span>
+            <button class="decrement">-</button>
+            <span class="quantity">1</span>
+            <button class="increment">+</button>
+            <button class="delete">Delete</button>
+            <button class="like">❤️</button>
+
+            <div class="total">
+                Total Price: <span id="total-price">$0.00</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
