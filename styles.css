@@ -92,5 +92,9 @@ body{
     text-align: center;
     text-decoration: black;
 }
-#phone{
-    }
+#photo{
+    max-width: 75%;
+    border-radius: 0;
+    height: 100px;
+    width: 100px;
+}
