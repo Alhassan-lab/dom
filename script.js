@@ -1,4 +1,4 @@
-// JavaScript to handle cart functionality
+// JavaScript to handle go shopping cart functionality
 const items = document.querySelectorAll('.item');
 const totalElement = document.getElementById('total-price');
 
@@ -46,4 +46,3 @@ function updateTotalPrice() {
     totalElement.textContent = `$${totalPrice.toFixed(2)}`;
 }
 
-updateTotalPrice(); // Calculate initial total price
