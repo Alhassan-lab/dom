@@ -38,11 +38,12 @@ button{
     border-radius: 2px;
 }
 .cart{
-    flex: 1;
+    flex: ;
     padding: 10px;
     text-align: left;
     margin: 1px;
     display: flexbox;
+    border: 10px black;
 }
 body{
     background-color: white;
@@ -57,7 +58,7 @@ body{
     margin-top: 20px;
     min-height:auto;
     min-width: auto;
-    border-radius: 5px;
+    border-radius: 5px;   
 }
 .content{
     box-shadow: 0px 6px 12px 0px 
@@ -66,9 +67,12 @@ body{
     margin: 10px;
 }
 .cart{
+    background-color: white;
     flex: auto;
     border: 20px;
     border-left: 20px;
+    border: 5px solid; 
+    border-spacing: 10px;
 }
 .laptop-1{
     color:white;
@@ -97,4 +101,11 @@ body{
     border-radius: 0;
     height: 100px;
     width: 100px;
+}
+.item{
+    margin: 2px;
+    border: 5px solid blue;
+}
+.section{
+    margin-top: 10px;
 }
